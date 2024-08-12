@@ -102,5 +102,4 @@ const api = new Api({
   groupId: `cohort0`,
   token: `80a75492-21c5-4330-a02f-308029e94b63`,
 });
-
-export default api;
+export { Api, api as default };
